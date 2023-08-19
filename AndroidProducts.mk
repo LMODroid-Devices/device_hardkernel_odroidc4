@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_odroidc4.mk \
-    $(LOCAL_DIR)/lineage_odroidc4_tab.mk \
+    $(LOCAL_DIR)/lmodroid_odroidc4.mk \
+    $(LOCAL_DIR)/lmodroid_odroidc4_tab.mk \
 
 COMMON_LUNCH_CHOICES := \
-    lineage_odroidc4-eng \
-    lineage_odroidc4_tab-eng \
-    lineage_odroidc4-user \
-    lineage_odroidc4_tab-user \
-    lineage_odroidc4-userdebug \
-    lineage_odroidc4_tab-userdebug
+    lmodroid_odroidc4-eng \
+    lmodroid_odroidc4_tab-eng \
+    lmodroid_odroidc4-user \
+    lmodroid_odroidc4_tab-user \
+    lmodroid_odroidc4-userdebug \
+    lmodroid_odroidc4_tab-userdebug
