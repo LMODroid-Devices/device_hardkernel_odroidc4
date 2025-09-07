@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_odroidc4.mk
+    $(LOCAL_DIR)/lmodroid_odroidc4.mk
