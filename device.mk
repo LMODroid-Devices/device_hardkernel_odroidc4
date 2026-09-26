@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021-2023 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -14,6 +13,10 @@ PRODUCT_HOST_PACKAGES += \
 ## Platform
 TARGET_AMLOGIC_SOC := sm1
 
+## Soong Namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 ## TEE
 TARGET_HAS_TEE := false
 
@@ -22,3 +25,6 @@ BOARD_HAVE_WIFI := false
 
 ## Inherit from the common tree product makefile
 $(call inherit-product, device/amlogic/g12-common/g12.mk)
+
+## Inherit from the proprietary files makefile
+$(call inherit-product, vendor/hardkernel/odroidc4/odroidc4-vendor.mk)

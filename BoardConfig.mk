@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2021-2023 The LineageOS Project
-#
+# SPDX-FileCopyrightText: The LineageOS Project
 # SPDX-License-Identifier: Apache-2.0
 #
 
@@ -10,7 +9,7 @@ DEVICE_PATH := device/hardkernel/odroidc4
 TARGET_BOOTLOADER_BOARD_NAME := odroidc4
 
 ## DTB
-TARGET_DTB_NAME := sm1_s905y3_odroidc4
+TARGET_DTB_NAME := sm1_s905x3_odroidc4
 
 ## Partitions
 BOARD_SUPER_PARTITION_SIZE := 2084569088
@@ -21,3 +20,6 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 ## Include the common tree BoardConfig makefile
 include device/amlogic/g12-common/BoardConfigCommon.mk
+
+## Include the proprietary BoardConfig makefile
+include vendor/hardkernel/odroidc4/BoardConfigVendor.mk

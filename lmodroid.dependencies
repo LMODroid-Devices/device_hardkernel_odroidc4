@@ -2,5 +2,15 @@
   {
     "repository": "LMODroid-Devices/device_amlogic_g12-common",
     "target_path": "device/amlogic/g12-common"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_amlogic_u-boot",
+    "target_path": "hardware/amlogic/u-boot"
+  },
+  {
+    "remote": "lineage",
+    "repository": "android_hardware_amlogic_u-boot_build",
+    "target_path": "hardware/amlogic/u-boot_build"
   }
 ]

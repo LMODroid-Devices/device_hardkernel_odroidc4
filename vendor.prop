@@ -1,10 +1,4 @@
-#
-# Copyright (C) 2021 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
-
-# Dolby
+## Dolby
 ro.vendor.platform.support.dolbyvision=false
 vendor.media.support.dolbyvision=false
 
